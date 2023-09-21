@@ -1,0 +1,125 @@
+body{
+    font-family: 'Baskervville', serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+    
+  }
+  
+  h1{
+    text-align: center;
+    color: orangered;
+    font-size: 3rem;
+  }
+  img {
+      margin: auto;
+      width:30%;   
+      max-width: 100%;
+      display: block;
+      height: auto;
+  }
+  #img-caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #img-caption:hover {
+    background-color: #c8a2c8;
+  }
+  p{
+  font-size: 20px;
+    text-align: center;
+  }
+  a{
+    color: rgba(170, 130, 240 ,0.5);
+  }
+  a:active  {
+    color: white;
+  }
+  .text {
+    grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+   
+    text-decoration: underline white;
+    display: flex; /* Adicionado para alinhar verticalmente */
+    align-items: center; /* Alinha verticalmente */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    column-gap: 20px; /* Adiciona espaço entre as colunas */text-align: justify;
+  }
+  .paragrafo {
+    font-size: 20px;
+    text-align: justify; /* Adicione esta linha */
+  }
+  
+  .paragrafo::first-letter {
+    font-size: 4rem;
+    color: red;
+    float: left;
+    margin-right: 1rem;
+  }
+  body{
+    font-family: 'Baskervville', serif;
+    color: linen;
+    background-color: rgb(20, 30, 40);
+    
+  }
+  
+  h1{
+    text-align: center;
+    color: orangered;
+    font-size: 3rem;
+  }
+  img {
+      margin: auto;
+      width:30%;   
+      max-width: 100%;
+      display: block;
+      height: auto;
+  }
+  #img-caption{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #img-caption:hover {
+    background-color: #c8a2c8;
+  }
+  p{
+  font-size: 20px;
+    text-align: center;
+  }
+  a{
+    color: rgba(170, 130, 240 ,0.5);
+  }
+  a:active  {
+    color: white;
+  }
+  .text {
+    grid-column: 2 / 3;
+    font-size: 1.8rem;
+    letter-spacing: 0.6px;
+   
+    text-decoration: underline white;
+    display: flex; /* Adicionado para alinhar verticalmente */
+    align-items: center; /* Alinha verticalmente */
+    line-height: 1.5; /* Ajusta o espaçamento entre linhas */
+    column-gap: 20px; /* Adiciona espaço entre as colunas */text-align: justify;
+  }
+  .paragrafo {
+    font-size: 20px;
+    text-align: justify; /* Adicione esta linha */
+  }
+  
+  .paragrafo::first-letter {
+    font-size: 4rem;
+    color: red;
+    float: left;
+    margin-right: 1rem;
+  }
+  #gif-container {
+    width: 100%;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  

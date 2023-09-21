@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <div class="corpo">
+<h1 id="title">Formulário de pastel </h1>
+
+<p id="description">Preencher com o que o seu coração deseja </p>
+
+<form id="survey-form">
+
+ <label for="name" id="name-label"> Bota teu nome fera <input id="name" type="text" placeholder="nome ne" required ></label>
+ <br>
+
+   <label for="email" id="email-label">Teu email agr <input id="email" type="email" placeholder="email ne"required></label>
+<br>
+   <label for="number" id="number-label">número de pastéis <input id="number" type="number" min=2 max=7 placeholder="numero ne"></label >
+   <br>
+  <h2> Sabor dos pasteis
+    <br>
+   <select id="dropdown"> 
+     
+     <option value ""> frango</option>
+     <option value "1"> queijo</option>
+     <option value "2"> charque</option>
+     <option value "3"> chocolate</option>
+     <option value "4"> bacon</option>
+     <option value "5"> carne de vaca louca</option>
+   </select>
+<br>
+   
+</h2>
+<p id="description">Escolha sabiamente vc só tem uma escolha</p>
+<input type="radio" name="extras" value=0> molho do chefe 
+<input type="radio" name="extras"value=1> extra vento
+<input type="radio" name="extras" value=2> cerveja quente por R$5,50
+<br>
+
+<input type="checkbox" value=0>Desejo receber fotos de pastéis
+<br>
+<input type="checkbox" value=1>Desejo receber convite para a anual competição de quem come mais pastel
+<br>
+<input type="checkbox" value=2>Desejo pagar extra caro no pedido
+<br>
+<textarea rows=4 cols=50 placeholder="Algum recado para o chef?"></textarea>
+<br>
+
+<input id="submit" type="submit" value="Faz no capricho chefia" />
+</div>
+  </form>
+
+      </body>
+</html>
